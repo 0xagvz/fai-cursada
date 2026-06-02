@@ -10,6 +10,7 @@ public class TPCondicionales {
         //refrigeración. Realizar un programa que reciba una temperatura e indique al usuario
         //si debe revisar el estado de la refrigeración. Se considera una temperatura
         //alarmante aquella que supera los 75 grados centígrados.​
+
         System.out.println("Ingrese la temperatura actual de los servidores: ");
         int temperatura = sc.nextInt();
 
@@ -46,7 +47,7 @@ public class TPCondicionales {
         //con qué nota lo logró.​
 
         float promedio = (nota1 + nota2) / 2;
-        
+
         if (promedio > 80){
             System.out.println("El alumno " + nombre + " " + apellido + " promociona la materia con un promedio de " + promedio);
         } else {
